@@ -145,6 +145,22 @@ body {
     gap: 20px;
 }
 
+/* 커서 모양 */
+.right {
+	cursor: none;
+}
+
+.icon-container {
+    position: fixed;
+    pointer-events: none;
+    z-index: 1000;
+    font-size: 50px;
+    color: #AF8F6F;
+}
+
+body.dark-mode .icon-container{
+    color: black;
+}
 
 /* 다크모드 스타일 */
 body.dark-mode {
